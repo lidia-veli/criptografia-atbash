@@ -48,6 +48,6 @@ def benchmark() -> None:
 
 
 if __name__ == "__main__":
-    for example in ("ABCDEFGH", "123GGjj", "testStringtest", "with space"):
+    for example in ("ABCDEFGH", "123GGjj", "gsvuoztrhhzbdvzivxizab", "with space"):
         print(f"{example} encrypted in atbash: {atbash(example)}")
     benchmark()
